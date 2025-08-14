@@ -35,7 +35,7 @@ curl -s -X POST http://localhost:8081/ask -H "Content-Type: application/json" -d
 }' | jq
 ```
 
-## What to emphasize in the interview
+## Emphasize:
 - **Routing:** cheap heuristics/SLM for intent; escalate complexity only when needed.
 - **Tooling:** parameterized SQL, TF‑IDF grounding, **citations**.
 - **Budgets:** max tool steps ensure predictable latency.
@@ -61,7 +61,7 @@ agentic-support-copilot/
 └─ requirements.txt
 ```
 
-## Extending (tie to Chapters 5–8)
+## Next steps: Extending (tie to Chapters 5–8) in the Ace Machine Learning and Artificial Intelligence Interview book
 - Swap TF‑IDF for embeddings + reranker; add metadata prefilter.
 - Add JSON schema output validation for agent answers.
 - Persist traces to an immutable audit log (S3) with correlation IDs.
